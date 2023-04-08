@@ -1,0 +1,261 @@
+body{
+    margin:0;
+}
+.bg-img1{
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    min-height: 800px
+}
+.wid{
+   width: 500px;
+}
+.volvo-logo{
+    width: 157px;
+    margin-left: 55px;
+}
+.navbar-items{
+    color:white ; 
+    font-size: 20px;
+    
+}
+/* #ul-align{
+    margin-top: 12px;
+    margin-right: -270px;
+} */
+.header-font{
+    color: #fff;
+    float: right;
+    margin-top: -410px;
+    font-size: 40px;
+    font-family:Volvo Broad Pro Digital;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 91px;
+    margin-right: 300px;
+    
+}
+@media screen and (max-width:740px) {
+    .header-font{
+        text-align: left;
+        font-size: 60px;
+        width: 300px;
+        margin-right: 35px;
+    }
+    
+}
+@media (max-width: 767px) {
+    #featureContainer .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    #featureContainer .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+#featureContainer .carousel-inner .carousel-item.active,
+#featureContainer .carousel-inner .carousel-item-next,
+#featureContainer .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    #featureContainer .carousel-inner .carousel-item-end.active,
+    #featureContainer .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+    
+    #featureContainer .carousel-inner .carousel-item-start.active, 
+    #featureContainer .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+    #featureContainer .card img{
+        width: 90%;
+        height: 100%;
+    }
+    #featureContainer .carousel-item{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 767px) {
+    #featureContainer .card img{
+        width: 100%;
+        height: 400px;
+    }
+}
+#featureContainer .carousel-inner .carousel-item-end,
+#featureContainer .carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+#featureContainer .card{
+    border: 0;
+}
+#featureContainer .card{
+    position: relative;
+}
+#featureContainer .card .card-img-overlays{
+    position: absolute;
+    bottom: 6%;
+    left: 16%;
+    color: #fff;
+    font-weight: bolder;
+}
+#featureContainer a{
+    text-decoration: none;
+}
+#featureContainer .indicator{
+    border: 1px solid rgb(202, 202, 202);
+    padding: 3px 6px 3px 6px;
+}
+#featureContainer .indicator:hover{
+    background-color: blue;
+    border: 1px solid blue;
+    transition: 200ms;
+}
+#featureContainer .indicator:hover{
+    color: white;
+    transition: 200ms;
+}
+#featureContainer .indicator {
+    color: lightgray;
+}
+#featureContainer .float-end{
+    padding-top: 10px;
+}
+.outer-div-section1{
+    background-color:#fff;
+}
+.outer-section-font{
+    
+    margin-top: 50px;
+}
+.outer-div-section1{
+    height: 900px;
+}
+.sec-1-div-font{
+    font-family: Arial,sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+    color: #4d4e53;
+}
+.img-font{
+    font-family:Volvo Broad Pro Digital;
+    font-size: 2.75rem;
+    font-weight: 400;
+    letter-spacing: .2px;
+    color: #fff;
+    line-height: 1.5;                              
+}
+.volvo-film{
+    margin-top: 105px;
+    margin-left: 205px;
+    margin-right: 251px;
+    
+
+}
+@media(max-width:1000px) {
+    .volvo-film{
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top: 50px;
+    }
+    
+    
+}
+@media(min-width:1800px) {
+    .volvo-film{
+        max-width: 1500px;
+       
+    }
+}
+.grid-section{
+    display: flex;
+    margin-left: 206px;
+    margin-right: 251px;
+    margin-top: 30px;
+    background-color: #1251b5;
+    height: 1500px;
+}
+.grid-w{
+    height: 390px;
+    width: 50%;
+}
+@media(max-width:1000px){
+    .grid-section{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+.grid-font1{
+    font-family: Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4d4e53;
+    line-height: 1.18em;
+    margin-left: 11px;
+}
+.grid-button1{
+    color: rgb(255,255,255);
+    background: #1251b5;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 1.5;
+    text-decoration: none;
+    width: 240px;
+    height: 50px;
+    margin-left: 14px;
+    border-color: #1251b5;
+    
+}
+.footer1{
+    /* margin-left: -218px; */
+    background-color:black;
+    height: 200px;
+    /* width: 1688px; */
+    
+}
+.footer-col-size{
+    width: 50%;
+}
+
+ 
+.card-header1 h1,h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vdo{
+  width: 100%;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.crd-box{
+    position: relative;
+}
+.img-desc{
+    position: absolute;
+    bottom: 7rem;
+    left: 3rem;
+}
+.img-desc h3{
+    font-weight: 900;
+    font-family: VolvoBroadProDigital,Arial,sans-serif;
+}
+
+.careers button{
+width: 15rem;
+height: 3rem;
+border: none;
+
+}
+.careers h1,h6{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .8;
+}
+
